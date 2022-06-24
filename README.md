@@ -1,7 +1,10 @@
-![Status Annotations Promo Image](/promo/github.png?raw=true "Status Annotations promo")
+![Status Annotations Promo Image](/promo/promo.png?raw=true "Status Annotations promo")
 
 # Status annotations
 A Figma plugin for adding a status annotations to your frames.
+
+- with modified Status Labels
+- Original Plugin by Thomas Lowry
 
 The plugin ships with 5 status annotations:
 1. In progress — _For early explorations, or work in progress designs_
@@ -64,4 +67,4 @@ npm run build
 Lastly, you need to add your plugin to Figma. From your list of plugins, under the "In Development" header, choose "Create new Plugin" by clicking the + button. From here you want to point to the `public/manifest.json` file in your plugin directory. You can now run the plugin and test it out.
 
 ### 7. Publish privately (optional)
-If you are part of a Figma Organization tier-plan, you can publish the plugin privately for use on your team. For more details on how to do this, visit the [Manage Plugins in an Organization](https://help.figma.com/hc/en-us/articles/360039958894-Manage-Plugins-in-an-Organization) page on Figma's help centre.
+If you are part of a **Figma Organization tier-plan**, you can publish the plugin privately for use on your team. For more details on how to do this, visit the [Manage Plugins in an Organization](https://help.figma.com/hc/en-us/articles/360039958894-Manage-Plugins-in-an-Organization) page on Figma's help centre.
