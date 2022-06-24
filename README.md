@@ -6,7 +6,7 @@ A Figma plugin for adding a status annotations to your frames.
 - with modified Status Labels
 - Original Plugin by [Thomas Lowry](https://github.com/thomas-lowry)
 
-The plugin ships with 5 status annotations:
+The original plugin ships with 5 status annotations:
 1. In progress — _For early explorations, or work in progress designs_
 2. Review — _Needs review from a stakeholder or in a design crit_
 3. Approved — _Design direction is approved, but may need minor tightening/tweaks for developers_
