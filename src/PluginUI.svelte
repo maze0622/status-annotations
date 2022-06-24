@@ -14,33 +14,44 @@
     import iconDevelop from './assets/icon-develop.svg';
 	import iconComplete from './assets/icon-complete.svg';
 	import iconArchive from './assets/icon-archive.svg';
+	import iconSynch from './assets/icon-sync.svg';
 	
 	//define all of the status that you want here
 	let statuses = [
 		{
-			'title': 'In progress',
-			'icon': iconInProgress,
+			'title': 'Wireframe - In progress',
+			'icon': iconSynch,
 			'color': '#E93940'
 		},
 		{
-			'title': 'Review',
+			'title': 'Wireframe - In review',
 			'icon': iconReview,
 			'color': '#FFCF23'
 		},
 		{
-			'title': 'Approved',
-			'icon': iconApproved,
-			'color': '#376FFF'
-		},
-		{
-			'title': 'Develop',
-			'icon': iconDevelop,
+			'title': 'Wireframe - Finished',
+			'icon': iconComplete,
 			'color': '#3CCC65'
 		},
 		{
-			'title': 'Complete',
+			'title': 'UI Design - In progress',
+			'icon': iconSynch,
+			'color': '#E93940'
+		},
+		{
+			'title': 'UI Design - In review',
+			'icon': iconReview,
+			'color': '#FFCF23'
+		},
+		{
+			'title': 'UI Design - Finished',
 			'icon': iconComplete,
-			'color': '#000000'
+			'color': '#3CCC65'
+		},
+		{
+			'title': 'Ready for implementation',
+			'icon': iconDevelop,
+			'color': '1F73F0'
 		},
 		{
 			'title': 'Archive',

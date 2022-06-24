@@ -111,7 +111,7 @@ async function createAnnotations(status) {
 		text.fontName = fontName;
 		text.fontSize = 12;
 		text.lineHeight = {
-			'value': 16,
+			'value': 14,
 			'unit': 'PIXELS'
 		}
 
@@ -124,8 +124,8 @@ async function createAnnotations(status) {
 		icon.layoutAlign = 'CENTER';
 
 		//add icon and text to annotation
-		annotionFrame.insertChild(0,text);
-		annotionFrame.insertChild(1,icon);
+		annotionFrame.insertChild(0,icon);
+		annotionFrame.insertChild(1,text);
 
 		//group the frame and put it into an array
 		let itemsToGroup = [];

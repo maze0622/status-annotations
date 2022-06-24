@@ -1,15 +1,16 @@
 {
-	"name": "Status Annotations",
+	"name": "pOS Status Labels",
 	"id": "795096273369409539",
 	"api": "1.0.0",
 	"main": "code.js",
 	"ui": "index.html",
+	"editorType": ["figjam","figma"],
 	"menu": [
-		{ "command": "status", "name": "Status annotations"},
-		{ "command": "refresh", "name": "Refresh annotations"}
+		{ "command": "status", "name": "Status Labels"},
+		{ "command": "refresh", "name": "Refresh Labels"}
 	],
 	"relaunchButtons": [
 		{"command": "status", "name": "Change status",  "multipleSelection": true},
-		{"command": "refresh", "name": "Refresh status annotations", "multipleSelection": true}
+		{"command": "refresh", "name": "Refresh status labels", "multipleSelection": true}
 	]
 }
