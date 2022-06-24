@@ -64,7 +64,7 @@ npm run build
 ```
 
 ### 6. Add to Figma
-Lastly, you need to add your plugin to Figma. From your list of plugins, under the "In Development" header, choose "Create new Plugin" by clicking the + button. From here you want to point to the `public/manifest.json` file in your plugin directory. You can now run the plugin and test it out.
+Lastly, you need to add your plugin to Figma. Under the "Plugins/Development" menu item, choose "Import Plugin from manifest..." and in the file browser point to the `public/manifest.json` file in your plugin directory. You can now run the plugin and test it out.
 
 ### 7. Publish privately (optional)
 If you are part of a **Figma Organization tier-plan**, you can publish the plugin privately for use on your team. For more details on how to do this, visit the [Manage Plugins in an Organization](https://help.figma.com/hc/en-us/articles/360039958894-Manage-Plugins-in-an-Organization) page on Figma's help centre.
